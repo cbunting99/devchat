@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollama Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ollama Chat</h1>
+            <div class="header-buttons">
+                <button id="newChatBtn" class="action-btn">🗑️ New Chat</button>
+                <button id="chatHistoryBtn" class="action-btn">📜 Chat History</button>
+                <button id="settingsBtn" class="settings-btn">⚙️ Settings</button>
+            </div>
+        </div>
+        
+        <div id="chatContainer" class="chat-container">
+            <!-- Chat messages will be inserted here -->
+        </div>
+
+        <div id="loadingIndicator" class="loading-indicator">
+            <div class="typing-indicator">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <span>AI is thinking</span>
+        </div>
+        <div class="input-container">
+            <textarea id="userInput" placeholder="Type your message..."></textarea>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <h2>Settings</h2>
+            <div class="setting-item">
+                <label for="serverUrl">Ollama Server URL:</label>
+                <input type="text" id="serverUrl" value="http://localhost:11434">
+                <div class="connection-status">
+                    <span id="statusIndicator" class="status-dot"></span>
+                    <span id="statusText">Checking connection...</span>
+                    <button id="checkConnection" class="check-btn">Check Connection</button>
+                </div>
+            </div>
+            <div class="setting-item">
+                <label for="modelSelect">Model:</label>
+                <select id="modelSelect">
+                    <option value="">Loading models...</option>
+                </select>
+            </div>
+            <div class="modal-buttons">
+                <button id="saveSettings">Save</button>
+                <button id="closeSettings">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat History Modal -->
+    <div id="chatHistoryModal" class="modal">
+        <div class="modal-content">
+            <h2>Chat History</h2>
+            <div id="chatHistoryContainer">
+                <!-- Chat history will be inserted here -->
+            </div>
+            <div class="modal-buttons">
+                <button id="closeChatHistory">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
