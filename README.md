@@ -1,4 +1,4 @@
-<img src="screens/Screenshot 2025-02-19 081630.png" width="200" height="200"><img src="screens/Screenshot 2025-02-19 081703.png" width="200" height="200"><img src="screens/Screenshot 2025-02-19 081838.png" width="200" height="200"><img src="screens/Screenshot 2025-02-19 081852.png" width="200" height="200">
+<img src="screens/Screenshot 2025-02-19 081630.png" width="200" height="200"> <img src="screens/Screenshot 2025-02-19 081703.png" width="200" height="200"> <img src="screens/Screenshot 2025-02-19 081838.png" width="200" height="200"> <img src="screens/Screenshot 2025-02-19 081852.png" width="200" height="200">
 
 # Ollama Chat Interface
 
