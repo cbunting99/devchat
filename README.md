@@ -3,7 +3,7 @@
 A modern web interface for interacting with Ollama language models, featuring real-time chat capabilities and advanced code handling.
 
 ## Created Using
-This project was written using VSCode, Roo Code, and includes the VSCode workspace.
+This project was written using VSCode and includes the VSCode workspace.
 
 ## Features
 
