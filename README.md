@@ -1,11 +1,8 @@
-![Screenshot 2025-02-19 081630.png](screens/Screenshot 2025-02-19 081630.png)
- 
-![Screenshot 2025-02-19 081703.png](screens/Screenshot 2025-02-19 081703.png)
- 
-![Screenshot 2025-02-19 081838.png](screens/Screenshot 2025-02-19 081838.png)
- 
-![Screenshot 2025-02-19 081852.png](screens/Screenshot 2025-02-19 081852.png)
- 
+<img src="screens/Screenshot 2025-02-19 081630.png" width="200" height="200">
+<img src="screens/Screenshot 2025-02-19 081703.png" width="200" height="200">
+<img src="screens/Screenshot 2025-02-19 081838.png" width="200" height="200">
+<img src="screens/Screenshot 2025-02-19 081852.png" width="200" height="200">
+
 # Ollama Chat Interface
 
 A modern web interface for interacting with Ollama language models, featuring real-time chat capabilities and advanced code handling.
