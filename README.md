@@ -1,8 +1,11 @@
 ![Screenshot 2025-02-19 081630.png](screens/Screenshot 2025-02-19 081630.png)
+ 
 ![Screenshot 2025-02-19 081703.png](screens/Screenshot 2025-02-19 081703.png)
+ 
 ![Screenshot 2025-02-19 081838.png](screens/Screenshot 2025-02-19 081838.png)
+ 
 ![Screenshot 2025-02-19 081852.png](screens/Screenshot 2025-02-19 081852.png)
-
+ 
 # Ollama Chat Interface
 
 A modern web interface for interacting with Ollama language models, featuring real-time chat capabilities and advanced code handling.
